@@ -28,9 +28,7 @@ public class CalculatorTest {
         cap.setCapability("appActivity","com.android.calculator2.Calculator");
 
         URL url = new URL("http://127.0.0.1:4723/wd/hub");
-
         driver = new AppiumDriver<MobileElement>(url,cap);
-
         System.out.println("Application Started...");
 
     }
