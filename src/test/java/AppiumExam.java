@@ -13,8 +13,8 @@ public class AppiumExam {
 
         //Desired Capabilities, system platform
         DesiredCapabilities caps = new DesiredCapabilities();
-        caps.setCapability(MobileCapabilityType.PLATFORM_NAME, "android");
-        caps.setCapability(MobileCapabilityType.DEVICE_NAME, "Demo");
+        caps.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
+        caps.setCapability(MobileCapabilityType.DEVICE_NAME, "Bughra");
 
         //Desired Capabilities specific to the application appPackage and appActivity
         caps.setCapability("appPackage", "com.android.calculator2");

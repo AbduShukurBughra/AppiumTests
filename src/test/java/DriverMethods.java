@@ -13,8 +13,8 @@ public class DriverMethods {
 
         //Desired Capabilities, system platform
         DesiredCapabilities caps = new DesiredCapabilities();
-        caps.setCapability(MobileCapabilityType.PLATFORM_NAME, "android");
-        caps.setCapability(MobileCapabilityType.DEVICE_NAME, "Demo");
+        caps.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
+        caps.setCapability(MobileCapabilityType.DEVICE_NAME, "Bughra");
         caps.setCapability(MobileCapabilityType.APP,"C:\\Users\\HP\\Desktop\\APK\\ApiDemos-debug.apk");
 
         //Android Driver initialization
